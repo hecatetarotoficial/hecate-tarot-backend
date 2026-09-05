@@ -1,0 +1,26 @@
+{
+  "name": "hekate-tarot-backend",
+  "version": "1.0.0",
+  "description": "Backend para app de tarot: pagos (Stripe), texto-a-voz dinamico, tiradas, rituales de magia blanca y carta astral",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "openai": "^4.56.0",
+    "stripe": "^16.8.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
